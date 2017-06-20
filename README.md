@@ -1,1 +1,3 @@
 Tweet harvester harvests tweets from a bounding box on map, the bounding box is defined by the top left corner point's coordinate and the bottom right corner's coordinate.  The format of bounding box in config.json file is [longitude of top left point, latitude of top left point, longitude of bottom right point, latitude of bottom right point].  Each tweet is stored in Json format in the database, currently CouchDB and Hbase are supported.
+
+An auths.txt file needs to be created under config folder, Twitter API authentication credenticals need to be specified in this file in the following order: consumer_key, consumer_secret, access_token and access_token_secret which are delimited by space.
