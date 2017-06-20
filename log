@@ -1,0 +1,18 @@
+3-30-2017
+    TODO:
+    1. Implement the Couchdb class and Hbase class. *
+
+4-2-2017
+    TODO:
+    1. Finish the configuration class. *
+    2. Finish the Harvester class the DB part and DB classes for the harvest part: reading configuration file then find proper class and then
+    take json as input to store the data. *
+
+4-3-2017
+    TODO:
+    1. Make sure the tweet ID as the key for each document in couchdb to avoid duplication.*
+
+4-5-2017
+    TODO:
+    1. Make a data validator, take last replicate time and time interval as parameter.  Filter tweets according to its timestamp, put 
+    validated tweets into the recent database and put others into historical database.

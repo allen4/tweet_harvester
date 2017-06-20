@@ -1,0 +1,18 @@
+{
+    "tweepy": {
+        "filter": {
+            "bounding_box":[
+                144.118652,-38.39233,145.678711,-37.560976
+            ]
+        }
+    },
+    "db": {
+        "type": "couchdb",
+        "host": "localhost",
+        "port": "5984",
+        "database": {
+            "recent": "recent_tweets",
+            "history": "history_tweets"
+        }
+    }
+}
